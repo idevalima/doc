@@ -18,11 +18,11 @@ Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia
     7. Histórico de Movimentação: Registrar todas as movimentações de estoque,  acompanhamento de entradas e saídas de cada produto.
 3. [Definições, Acrônimos e Abreviações](#definição)
  1. Definições
-    2. Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
-    3. Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
-    4. Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
-    5. Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
-    6. Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
+    1. Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
+    2. Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
+    3. Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
+    4. Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
+    5. Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
  2. Acrônimos
     1. ENUM: Tipo de dado que define um conjunto fixo de valores possíveis (por exemplo, para "Categoria" e "Status do Pedido").
     2. SQLite: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do sistema de estoque.
