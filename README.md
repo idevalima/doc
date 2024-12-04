@@ -8,7 +8,7 @@ Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia
 ## Índice
 
 1. [Objetivos do Projeto](#objetivo) 
-    2. Objetivo Geral:
+ 1. Objetivo Geral:
     1. Desenvolver um programa de controle de estoque que permita gerenciar e monitorar os níveis de produtos, garantindo que a empresa tenha informações precisas sobre a disponibilidade de itens, evitando excessos ou faltas de produtos.
     2. Objetivos Específicos:
     3. Registrar Produtos: Permitir a inclusão, edição e exclusão de produtos no sistema com informações como código, nome, descrição, categoria, preço e quantidade.
