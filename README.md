@@ -18,24 +18,24 @@ Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia
     • Histórico de Movimentação: Registrar todas as movimentações de estoque,  acompanhamento de entradas e saídas de cada produto.
 3. [Definições, Acrônimos e Abreviações](#definição)
 4. Definições
-    • Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
-    • Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
-    • Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
-    • Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
-    • Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
+    1. Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
+    2. Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
+    3. Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
+    4. Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
+    5. Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
 Acrônimos
-    • ENUM: Tipo de dado que define um conjunto fixo de valores possíveis (por exemplo, para "Categoria" e "Status do Pedido").
-    • SQLite: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do sistema de estoque.
-    • CRUD: Create, Read, Update, Delete — Operações básicas para manipulação de dados no sistema.
-    • API: Application Programming Interface — Interface de programação para integração com outros sistemas (caso necessário no futuro).
-    • DB: Database (Banco de Dados) — Sistema que armazena os dados do sistema de estoque.
+    6. ENUM: Tipo de dado que define um conjunto fixo de valores possíveis (por exemplo, para "Categoria" e "Status do Pedido").
+    7. SQLite: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do sistema de estoque.
+    8. CRUD: Create, Read, Update, Delete — Operações básicas para manipulação de dados no sistema.
+    9. API: Application Programming Interface — Interface de programação para integração com outros sistemas (caso necessário no futuro).
+    10. DB: Database (Banco de Dados) — Sistema que armazena os dados do sistema de estoque.
 Abreviações
-    • SKU: Stock Keeping Unit (Unidade de Manutenção de Estoque) — Código único para identificar produtos no estoque (caso seja adotado no futuro).
-    • FIFO: First In, First Out (Primeiro a Entrar, ultimo a Sair) — Método de controle de estoque.
-    • LIFO: Last In, First Out (Último a Entrar, Primeiro a Sair) — Outro método de controle de estoque.
-    • OOS: Out of Stock (Fora de Estoque) — Indica que o produto não está mais disponível no estoque.
-    • UI: User Interface (Interface do Usuário) — Parte do sistema com a qual os usuários interagem diretamente.
-    • UX: User Experience (Experiência do Usuário) — Experiência geral do usuário ao utilizar o sistema.
+    11. SKU: Stock Keeping Unit (Unidade de Manutenção de Estoque) — Código único para identificar produtos no estoque (caso seja adotado no futuro).
+    12. FIFO: First In, First Out (Primeiro a Entrar, ultimo a Sair) — Método de controle de estoque.
+    13. LIFO: Last In, First Out (Último a Entrar, Primeiro a Sair) — Outro método de controle de estoque.
+    14. OOS: Out of Stock (Fora de Estoque) — Indica que o produto não está mais disponível no estoque.
+    15. UI: User Interface (Interface do Usuário) — Parte do sistema com a qual os usuários interagem diretamente.
+    16. UX: User Experience (Experiência do Usuário) — Experiência geral do usuário ao utilizar o sistema.
 5. [Requisitos](#requisitos)
    1. [Requisitos Funcionais](#rf)
    2. [Requisitos Não Funcionais](#rnf)
