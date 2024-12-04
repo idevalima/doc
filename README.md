@@ -41,6 +41,7 @@ Abreviações
    2. [Requisitos Não Funcionais](#rnf)
 6. [Diagramas UML](#uml)
    1. [Diagrama de Casos de Uso](#uc)
+   2. [Descrição da imagem](assets/Diagramadecasodeuso.pdf)
    5. [Diagrama de Classe](#classe)
 7. [Estrutura do Projeto](#estrutura)
 8. [Contribuição](#contribuição)
