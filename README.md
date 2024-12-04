@@ -8,7 +8,7 @@ Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia
 ## Índice
 
 1. [Objetivos do Projeto](#objetivo) 
-Objetivo Geral:
+2. Objetivo Geral:
     • Desenvolver um programa de controle de estoque que permita gerenciar e monitorar os níveis de produtos, garantindo que a empresa tenha informações precisas sobre a disponibilidade de itens, evitando excessos ou faltas de produtos.
     • Objetivos Específicos:
     • Registrar Produtos: Permitir a inclusão, edição e exclusão de produtos no sistema com informações como código, nome, descrição, categoria, preço e quantidade.
@@ -41,7 +41,7 @@ Abreviações
    2. [Requisitos Não Funcionais](#rnf)
 6. [Diagramas UML](#uml)
    1. [Diagrama de Casos de Uso](#uc)
-   2. [Descrição da imagem](assets/Diagramadecasodeuso.pdf)
+   2. [Descrição da imagem](Diagramadecasodeuso-jpg)
    5. [Diagrama de Classe](#classe)
 7. [Estrutura do Projeto](#estrutura)
 8. [Contribuição](#contribuição)
