@@ -8,34 +8,34 @@ Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia
 ## Índice
 
 1. [Objetivos do Projeto](#objetivo) 
-2. Objetivo Geral:
-    • Desenvolver um programa de controle de estoque que permita gerenciar e monitorar os níveis de produtos, garantindo que a empresa tenha informações precisas sobre a disponibilidade de itens, evitando excessos ou faltas de produtos.
-    • Objetivos Específicos:
-    • Registrar Produtos: Permitir a inclusão, edição e exclusão de produtos no sistema com informações como código, nome, descrição, categoria, preço e quantidade.
-    • Controle de Quantidades: Monitorar o estoque de cada produto, com os níveis de estoque (mínimo ou máximo).
-    • Relatórios de Estoque: Gerar relatórios simples sobre o status atual do estoque, como lista de produtos com baixo estoque ou com excesso em estoque.
-    • Entrada e Saída de Produtos: Facilitar o registro de entradas (compra de novos produtos) e saídas (Solicitações e movimentações).
-    • Histórico de Movimentação: Registrar todas as movimentações de estoque,  acompanhamento de entradas e saídas de cada produto.
+    2. Objetivo Geral:
+    1. Desenvolver um programa de controle de estoque que permita gerenciar e monitorar os níveis de produtos, garantindo que a empresa tenha informações precisas sobre a disponibilidade de itens, evitando excessos ou faltas de produtos.
+    2. Objetivos Específicos:
+    3. Registrar Produtos: Permitir a inclusão, edição e exclusão de produtos no sistema com informações como código, nome, descrição, categoria, preço e quantidade.
+    4. Controle de Quantidades: Monitorar o estoque de cada produto, com os níveis de estoque (mínimo ou máximo).
+    5. Relatórios de Estoque: Gerar relatórios simples sobre o status atual do estoque, como lista de produtos com baixo estoque ou com excesso em estoque.
+    6. Entrada e Saída de Produtos: Facilitar o registro de entradas (compra de novos produtos) e saídas (Solicitações e movimentações).
+    7. Histórico de Movimentação: Registrar todas as movimentações de estoque,  acompanhamento de entradas e saídas de cada produto.
 3. [Definições, Acrônimos e Abreviações](#definição)
-4. Definições
-    1. Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
-    2. Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
-    3. Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
-    4. Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
-    5. Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
-Acrônimos
-    6. ENUM: Tipo de dado que define um conjunto fixo de valores possíveis (por exemplo, para "Categoria" e "Status do Pedido").
-    7. SQLite: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do sistema de estoque.
-    8. CRUD: Create, Read, Update, Delete — Operações básicas para manipulação de dados no sistema.
-    9. API: Application Programming Interface — Interface de programação para integração com outros sistemas (caso necessário no futuro).
-    10. DB: Database (Banco de Dados) — Sistema que armazena os dados do sistema de estoque.
-Abreviações
-    11. SKU: Stock Keeping Unit (Unidade de Manutenção de Estoque) — Código único para identificar produtos no estoque (caso seja adotado no futuro).
-    12. FIFO: First In, First Out (Primeiro a Entrar, ultimo a Sair) — Método de controle de estoque.
-    13. LIFO: Last In, First Out (Último a Entrar, Primeiro a Sair) — Outro método de controle de estoque.
-    14. OOS: Out of Stock (Fora de Estoque) — Indica que o produto não está mais disponível no estoque.
-    15. UI: User Interface (Interface do Usuário) — Parte do sistema com a qual os usuários interagem diretamente.
-    16. UX: User Experience (Experiência do Usuário) — Experiência geral do usuário ao utilizar o sistema.
+ 1. Definições
+    2. Produto: Item no estoque que possui atributos como código, nome, descrição, quantidade, categoria e fornecedor.
+    3. Categoria: Classificação do produto, representada por um conjunto de valores possíveis (enum), com código, nome e descrição.
+    4. Fornecedor: Entidade ou empresa responsável por fornecer os produtos. Possui atributos como código, nome, contato, telefone e email.
+    5. Pedido: Registro de um pedido, incluindo o código do pedido, data, status, lista de produtos e suas quantidades.
+    6. Estoque: Controle do inventário de produtos, incluindo operações como cadastrar, remover e consultar produtos, além de atualizar as quantidades com base em pedidos.
+ 2. Acrônimos
+    1. ENUM: Tipo de dado que define um conjunto fixo de valores possíveis (por exemplo, para "Categoria" e "Status do Pedido").
+    2. SQLite: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do sistema de estoque.
+    3. CRUD: Create, Read, Update, Delete — Operações básicas para manipulação de dados no sistema.
+    4. API: Application Programming Interface — Interface de programação para integração com outros sistemas (caso necessário no futuro).
+    5. DB: Database (Banco de Dados) — Sistema que armazena os dados do sistema de estoque.
+ 3. Abreviações
+    1. SKU: Stock Keeping Unit (Unidade de Manutenção de Estoque) — Código único para identificar produtos no estoque (caso seja adotado no futuro).
+    2. FIFO: First In, First Out (Primeiro a Entrar, ultimo a Sair) — Método de controle de estoque.
+    3. LIFO: Last In, First Out (Último a Entrar, Primeiro a Sair) — Outro método de controle de estoque.
+    4. OOS: Out of Stock (Fora de Estoque) — Indica que o produto não está mais disponível no estoque.
+    5. UI: User Interface (Interface do Usuário) — Parte do sistema com a qual os usuários interagem diretamente.
+    6. UX: User Experience (Experiência do Usuário) — Experiência geral do usuário ao utilizar o sistema.
 5. [Requisitos](#requisitos)
    1. [Requisitos Funcionais](#rf)
    2. [Requisitos Não Funcionais](#rnf)
